@@ -15,6 +15,12 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    "types": ["node"],
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
